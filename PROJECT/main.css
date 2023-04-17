@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*{
+    font-family: "Inter";
+}
+:root{
+    --color:#101828;
+}
+body{
+    display:flex;
+}
+.header{
+    width: 9432px;
+    height: 488px;
+    border-top: 12px solid #7F56D9;
+    
+}
+img{
+    width: 36px;
+    height:36px;
+    margin-left: 5px ;
+}
+span p{
+    display:inline-block; 
+}
+.icon{
+    width:25%;
+}
+.alpha{
+    width:75%;
+}
+h1{
+    font-style: normal;
+    font-weight:600;
+    font-size: 60px;
+    line-height:72px ;
+    letter-spacing: 120%;
+    color: var(--color);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.first {
+    position:relative;
+    
+}
