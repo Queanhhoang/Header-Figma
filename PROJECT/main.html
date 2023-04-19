@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Header</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <main>
-        <div class="header">
-            <span class="first">
-                <p class="alpha" ><img src="image/Tips-icon.png" alt="">Marketing website components -> Header navigation</p>
-            </span>
-            <div>
-                <h1>Header navigation</h1>
-                <p><pre>The header navigation is the upper (top) part of web page that helps the user navigate a site. Headers <br>should be as helpful as possible, with clear and accessible links to everywhere the users may need to go.</pre></p>
-            </div>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="navigate">
+        <img src="image/Tips-icon.png" alt="logo" width="32" height="32" />
+        <nav class="navigate-text">
+          <span>Marketing website components</span>
+          <i class="fa-solid fa-arrow-right"></i>
+          <span>Header navigation</span>
+        </nav>
+      </section>
+
+      <section class="header-wrapper">
+        <div class="header-title">
+          <h1>Header navigation</h1>
+          <button>
+            <i class="fa-regular fa-circle-check"></i>
+            <p>Auto layout</p>
+          </button>
         </div>
-        <div class="box"></div>
-    </main>
-</body>
+        <p class="header-text">
+          The header navigation is the upper (top) part of web page that helps
+          the user navigate a site. Headers should be as helpful as possible,
+          with clear and accessible links to everywhere the users may need to
+          go.
+        </p>
+      </section>
+    </header>
+  </body>
 </html>
