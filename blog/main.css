@@ -1,0 +1,43 @@
+:root{
+    --color-1:#101828;
+    --color-2:#475467;
+    --color-3:#6941C6;
+}
+.nav_bar{
+    align-items: flex-start;
+    display: flex;
+
+}  
+.nav_bar span{
+    color: var(--color-1);
+    font-size: 1.5em;
+}
+
+.nav_bar li {
+    display:inline-block;
+}
+.nav_bar li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--color-2);
+    line-height: 80px;
+    padding:0 32px;
+}
+.icon{
+    width:32px;
+    height:32px;
+}
+.nav_bar i{
+    position:relative;
+    right:1.5rem;
+}
+#title{
+    color:var(--color-3);
+    font-weight: 600;
+}
+.content > p {
+    letter-spacing: -2%;
+ 
+
+}
